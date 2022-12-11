@@ -14,19 +14,3 @@ function Send(){
 
 }
 
-function Check(){
-    
-    inputdata = document.getElementById("answer").value;
-
-if (inputdata == actual_answer) {
-
-    document.getElementById("answer").value = "";
-    document.getElementById("Question").value = "";
-
-}
-
-else {
-    console.log("aauugh");
-}
-
-}
